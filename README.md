@@ -5,6 +5,8 @@
 ``` node e2csv.js```
 
 
+#### Example csv as bellow
+```
 "_id","name","age"
 "ZeAf8WYB7D4Q1Re9983t","Bob",2
 "Z-Af8WYB7D4Q1Re9983t","Coco",10
@@ -14,3 +16,4 @@
 "auAf8WYB7D4Q1Re9983t","John",18
 "a-Af8WYB7D4Q1Re9983t","Tima",34
 "bOAf8WYB7D4Q1Re9983t","QQ",6
+```
