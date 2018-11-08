@@ -1,6 +1,4 @@
-var request = require('request'),
-    fs = require('fs'),
-    csv = require('csvtojson'),
+var csv = require('csvtojson'),
     elasticsearch = require('elasticsearch');
 
 var config = require('./env.js')
