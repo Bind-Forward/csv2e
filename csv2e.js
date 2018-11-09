@@ -19,11 +19,13 @@ function readCsvtoBulk(csvFile, callback) {
             jsonObj.forEach(e => {
                 bulkPostbody.push({
                     index: {
-                        _index: config.index,
-                        _type: config.type,
+                        _index: e._index,
+                        _type: e._type,
                         _id: e._id
                     }
                 })
+                delete e._index
+                delete e._type
                 delete e._id
                 bulkPostbody.push(e)
             })
