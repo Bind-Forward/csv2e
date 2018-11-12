@@ -16,7 +16,7 @@
 
 ``` cp env.js.default env.js```
 
-``` node e2csv.js```
+``` node csv2e.js```
 
 
 #### Example input csv as bellow
